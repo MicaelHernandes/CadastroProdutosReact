@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from './components/navbar'
-import Home from "./views/home";
+import Rota from "./Rotas";
 
 function App() {
   return (
     <>
       <div className="container">
-        <Navbar />
-        <Home />
+        <Navbar/>
+        <Rota/>
       </div>
     </>
   );
